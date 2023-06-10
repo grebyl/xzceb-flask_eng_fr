@@ -8,5 +8,5 @@ def english_to_french(english_text):
 
 def french_to_english(french_text):
     """Translate French to English."""
-    english_text = MyMemoryTranslator(source='en', target='fr').translate(french_text)
+    english_text = MyMemoryTranslator(source='fr', target='en').translate(french_text)
     return english_text
